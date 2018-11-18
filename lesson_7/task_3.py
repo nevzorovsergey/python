@@ -23,7 +23,7 @@ def find_median(array):
         if abs(m - n) < best:
             best = abs(m - n)
             best_i = i
-            
+
     return best_i
 
 
